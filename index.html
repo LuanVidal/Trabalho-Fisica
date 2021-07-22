@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/LuanVidal/trabalho-historia/master/favicon/H3.ico"" />
+  <title>Cinemática no lançamento de foguete</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8d54339150.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#sobre" >Resumo</a></li>
+        <li><a href="#portifolio" >Gráficos</a></li>
+        <li><a href="#integrantes">Integrantes</a></li>
+        <li><a href="#contato" >Podcast</a></li>
+      </ul>
+    </nav>
+    <div class="home" id="#">
+      <div class="texto">
+        <h1 class="site-title" id="texto">
+          Cinemática no lançamento de foguete
+        <h2 class="texto-subtitle" >
+       </h2>
+      </div>
+      <style>
+        h1::after {
+          content:'|';
+          margin-left: 3px;
+          opacity: 1;
+          animation: Blink.7s infinite;
+          font-size: 4pc;
+        }
+
+        @keyframes Blink {
+          0%, 100%{
+            opacity: 1;
+          }
+          50%{
+            opacity: 0;
+          }
+        }
+      </style>
+      <style>
+        h2::before{
+          position: fixed;
+        }
+
+      </style>
+    </div>
+  </header>
+  <section class="sobre" id="sobre">
+    <h2>Resumo</h2>
+    <p class="txt" id="texto">Esse projeto conta com os dados que serão usados para a pesquisa do grupo no que tange a cinemática no lançamento de foguetes. Usa-se como base o lançamento do Falcon 9 da SpaceX que foi lançado na tarde de 30 de junho de 2021.A seguir a tabela do tempo pela velocidade e pela altura, após a tabela há os gráficos que se referem a esses mesmos valores da tabela.</p>
+
+  </section>
+  <section class="portifolio" id="portifolio">
+    <h2>Graficos</h2>
+    <div class="grid">
+      <figure>
+        <img class="img-portfolio" src="./img/vel-1.png" alt="imagem velocidade-1">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="./img/alt-1.png" alt="imagem altitude-1">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="./img/vel-2.png" alt="imagem velocidade-2">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" id="foto final" src="./img/alt-2.png" alt="imagem altitude-2">
+        <figcaption></figcaption>
+      </figure>
+    
+    </div>
+  </section>
+ 
+
+  <section class="integrantes" id="integrantes">
+    <h2>Integrantes</h2>
+    <h4>- Luan Gabriel</h4>
+    <h4>- Daniel Roger</h4>
+    <h4>- Marcos Paulo</h4>
+    <h4>- Davi Henrique </h4>
+    <h4>- Bruno Ricardo </h4>
+  </section>
+
+  <section class="contato" id="contato">
+      <h2>Podcast</h2>
+      <div class="podcast">
+          <audio controls>
+            <source src="https://raw.githubusercontent.com/LuanVidal/trabalho-historia/master/music/podcast%20Final(MP3_128K)_2.mp3" type="audio/mpeg">
+          </audio>
+      </div>
+    </section>
+
+  <script src="js/index.js"></script>
+  
+</body>
+</html>
