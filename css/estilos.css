@@ -56,7 +56,7 @@ header {
 .menu ul{
   width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
